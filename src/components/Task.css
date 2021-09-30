@@ -1,0 +1,47 @@
+.tasks {
+  color: rgb(13, 26, 0);
+  background-color: darkgray;
+  width: 100%;
+
+  font-size: 18pt;
+  margin: auto;
+  border-radius: 10px;
+}
+.task-content {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.task-button {
+  margin-left: auto;
+}
+
+.task-done {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.task-button {
+  margin-right: 20px;
+}
+
+.task-content2 {
+  background-color: chartreuse;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  animation-name: done;
+  animation-duration: 3s;
+}
+
+@keyframes done {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: chartreuse;
+  }
+}

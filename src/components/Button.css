@@ -1,0 +1,19 @@
+.button {
+  font-size: 18pt;
+  font-weight: bold;
+  color: rgb(0, 34, 0);
+  background-color: cornflowerblue;
+  border-radius: 100px;
+  width: fit-content;
+  border: none;
+  margin-left: 10%;
+}
+
+.button:hover {
+  background-color: darkgreen;
+  color: aliceblue;
+}
+.button:active {
+  background-color: brown;
+  color: chartreuse;
+}

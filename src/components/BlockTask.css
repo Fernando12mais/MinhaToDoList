@@ -1,0 +1,22 @@
+.block-all {
+  max-width: 800px;
+
+  height: fit-content;
+  margin: auto;
+  margin-top: 200px;
+  border: 15px solid gray;
+  border-radius: 10px;
+}
+
+.block-content {
+  border: 7px solid greenyellow;
+  width: 98.5%;
+  height: fit-content;
+  text-align: center;
+}
+
+.block-itens {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}
